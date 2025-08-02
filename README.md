@@ -1,4 +1,6 @@
 AssetFlow - Backend 🏢
+
+
 📝 Overview
 This repository contains the backend REST API for AssetFlow, a full-stack corporate resource management system. It's designed to solve the common office problem of inefficiently managing shared assets like meeting rooms, vehicles, and equipment by providing a secure, centralized, and real-time booking platform.
 
@@ -115,3 +117,4 @@ Deletes a user.
 PUT /api/bookings/{id}/status?status=<STATUS>
 
 Updates a booking's status. Replace <STATUS> with APPROVED or REJECTED.
+
